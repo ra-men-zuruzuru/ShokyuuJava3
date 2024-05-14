@@ -21,7 +21,7 @@ public class MyFrame extends Frame implements Runnable {
 	/**
 	 * fillRect 等で用いる描画色
 	 */
-	Color col=Color.YELLOW;
+	Color col=Color.BLACK;
 	/**
 	 * アニメーション用のスレッド
 	 */
