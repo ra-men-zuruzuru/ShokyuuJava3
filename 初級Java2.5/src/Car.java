@@ -5,7 +5,7 @@ public class Car {
 		this.x=x;
 		this.y=y;
 		this.vx=vx;
-		this.vy=vx;
+		this.vy=vy;
 	}
 	public void Draw(MyFrame frame) {
 		frame.fillRect(x,y,90,40);
