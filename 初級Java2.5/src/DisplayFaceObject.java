@@ -8,7 +8,7 @@ public class DisplayFaceObject extends MyFrame {
 		faces[3]=new Face(200,100,-5,0);
 		for (int i = 0; i < 30; i++) {
 			clear();
-			for (int j = 0; j < 4; j++) {
+			for (int j = 0; j < faces.length; j++) {
 				faces[j].Draw(this);
 				faces[j].move();
 			}
