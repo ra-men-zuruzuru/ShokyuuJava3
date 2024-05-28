@@ -1,14 +1,12 @@
 
 public class DisplayFaceAndTree extends MyFrame{
 	public void run() {
-		Face face1=new Face(50,50,10,5);
-		Tree tree1=new Tree(200,100,-10,-5);
+		Car car1=new Car(100,100,0,0);
+		car1.Draw(this);
 		for(int i=0;i<30;i++) {
 			clear();
-			face1.Draw(this);
-			tree1.Draw(this);
-			face1.move();
-			tree1.move();
+			car1.Draw(this);
+			car1.move();
 			sleep(0.1);
 		}
 	}
