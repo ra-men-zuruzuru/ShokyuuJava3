@@ -1,19 +1,17 @@
 
-public class DisplayFaceObject extends MyFrame{
+public class DisplayFaceObject extends MyFrame {
 	public void run() {
-		Face face1=new Face(50,50,10,5);
-		face1.Draw(this);
-		
-		Face face2=new Face(200,100,-10,-5);
-		face2.Draw(this);
-		for(int i=0;i<30;i++) {
+		Face[] faces = new Face[3];
+		faces[0] = new Face(50, 50, 10, 5);
+		faces[1] = new Face(200, 100, -10, -5);
+		faces[2] = new Face(0, 100, -10, 0);
+		for (int i = 0; i < 30; i++) {
 			clear();
-			face1.Draw(this);
-			face2.Draw(this);
-			face1.move();
-			face2.move();
+			for (int j = 0; j < 3; j++) {
+				faces[j].Draw(this);
+				faces[j].move();
+			}
 			sleep(0.1);
 		}
 	}
-
 }
