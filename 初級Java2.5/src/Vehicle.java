@@ -11,5 +11,8 @@ public class Vehicle {
 		x+=vx;
 		y+=vy;
 	}
+	public void Draw(MyFrame f) {
+		// TODO 自動生成されたメソッド・スタブ
+	}
 
 }
