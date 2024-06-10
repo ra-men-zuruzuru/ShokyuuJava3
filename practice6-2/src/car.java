@@ -1,5 +1,5 @@
 
-public class car extends MyFrame {
+public class car extends Vehicle {
 	int x,y,vx,vy;
 	public car(int x,int y,int vx ,int vy) {
 		this.x=x;
