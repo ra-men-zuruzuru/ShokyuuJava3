@@ -3,9 +3,12 @@ import java.util.Vector;
 public class DisplayCarsTrains extends MyFrame {
 	public void run() {
 		Vector<Vehicle> vehicles=new Vector<Vehicle>();
-		vehicles.add(new car(10,30,3,0));
-		vehicles.add(new car(10,100,5,0));
-		vehicles.add(new Train(10,150,7,0));
+		vehicles.add(new car(40,30,3,0));
+		vehicles.add(new car(80,80,-3,0));
+		vehicles.add(new Train(50,120,7,0));
+		vehicles.add(new Train(80,170,-7,0));
+		vehicles.add(new Truck(30,240,1,0));
+		vehicles.add(new Truck(50,320,1,0));
 		
 		for(int i=0;i<30;i++) {
 			clear();
